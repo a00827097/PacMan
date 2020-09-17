@@ -146,7 +146,8 @@ def move():
     for point, course in ghosts:
         if abs(pacman - point) < 20:
             return
-
+#ontimer repite la función que se le de en el primer argumento
+# con la velocidad dada en milisegundos en el segundo argumento
     ontimer(move, 10)
 
 def change(x, y):
